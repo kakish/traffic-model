@@ -30,4 +30,12 @@ public class Driver
         this.acceleration = acceleration;
         this.hesitateProbability = hesitateProbability;
     }
+
+    @Override
+    public String toString() {
+        return "Driver{" +
+                "acceleration=" + acceleration +
+                ", hesitateProbability=" + hesitateProbability +
+                '}';
+    }
 }

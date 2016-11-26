@@ -22,6 +22,10 @@ public class Lane {
         this.freeEnd = freeEnd;
     }
 
+    public Lane() {
+
+    }
+
     public Integer getStartPosition() {
         return startPosition;
     }
